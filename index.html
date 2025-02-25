@@ -3,532 +3,326 @@
 
 <head>
   <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-  <title>DYPO | Home</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DYPO - Empowering Druze Youth Worldwide</title>
+  <meta name="description" content="DYPO is revolutionizing access to Druze knowledge and culture through technology, education, and community building.">
+  
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/core/Final Logo.png" rel="apple-touch-icon">
-
+  
   <!-- Fonts -->
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-
-  <!-- Template Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://api.fontshare.com/v2/css?f[]=clash-display@600,700&display=swap" rel="stylesheet">
+  
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="assets/css/main.css">
 </head>
 
-<body class="index-page" data-bs-spy="scroll" data-bs-target="#navmenu">
+<body>
+  <!-- Mobile Menu Toggle -->
+  <button class="mobile-nav-toggle">
+    <i class="bi bi-list"></i>
+  </button>
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="header fixed-top d-flex align-items-center">
-    <div class="container-fluid d-flex align-items-center justify-content-between">
-
-      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-10">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <img src="assets/img/core/Logo with text - Black.png" alt="DYPO Logo">
-        
-        
+  <header class="header">
+    <div class="container">
+      <a href="/" class="logo">
+        <img src="assets/img/core/Logo with text - Black.png" alt="DYPO">
       </a>
-
-      <!-- Nav Menu -->
-      <nav id="navmenu" class="navmenu">
-        <ul>
-          <li><a href="index.html#hero" class="active">Home</a></li>
-          <!-- <li><a href="index.html#about">About</a></li>
-          <li><a href="index.html#services">Services</a></li>
-          <li><a href="index.html#portfolio">Portfolio</a></li>
-          <li><a href="team.html">Team</a></li>
-          <li><a href="blog.html">Blog</a></li> -->
-          <!-- <li class="dropdown has-dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down"></i></a>
-            <ul class="dd-box-shadow">
-              <li><a href="#">Dropdown 1</a></li>
-              <li class="dropdown has-dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down"></i></a>
-                <ul class="dd-box-shadow">
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li>
-            </ul>
-          </li> -->
-          <li><a href="index.html#contact">Contact</a></li>
+      
+      <nav class="nav">
+        <ul class="nav-links">
+          <li><a href="#mission" class="nav-link">Mission</a></li>
+          <li><a href="#impact" class="nav-link">Impact</a></li>
+          <li><a href="#initiatives" class="nav-link">Initiatives</a></li>
+          <li><a href="#team" class="nav-link">Team</a></li>
         </ul>
-
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-      </nav><!-- End Nav Menu -->
-
-      <a class="btn-getstarted" href="index.html#about">Get Started</a>
-
+        <a href="#join" class="btn btn-primary">Join Us</a>
+      </nav>
     </div>
-  </header><!-- End Header -->
+  </header>
 
-  <main id="main">
-
-    <!-- Hero Section - Home Page -->
-    <section id="hero" class="hero">
-
-      <img src="assets/img/hero-bg.jpeg" alt="" data-aos="fade-in">
-
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
       <div class="container">
-        <div class="row">
-          <div class="col-lg-10">
-            <h2 data-aos="fade-up" data-aos-delay="100">DYPO's home page</h2>
-            <p data-aos="fade-up" data-aos-delay="200">Helping Druze youth succeed.</p>
-          </div>
-          <div class="col-lg-5">
-            <form action="#" class="sign-up-form d-flex" data-aos="fade-up" data-aos-delay="300">
-              <input type="text" class="form-control" placeholder="Enter email address">
-              <input type="submit" class="btn btn-primary" value="Sign up">
-            </form>
+        <div class="hero-content">
+          <h1>Empowering the Next Generation of Druze Leaders</h1>
+          <p>We're bridging the gap between Druze youth and their heritage through technology, education, and community building.</p>
+          <div class="hero-cta">
+            <a href="#join" class="btn btn-primary">Get Involved</a>
+            <a href="#mission" class="btn btn-outline">Learn More</a>
           </div>
         </div>
       </div>
+    </section>
 
-    </section><!-- End Hero Section -->
-
-
-    <!-- About Section - Home Page -->
-    <section id="about" class="about">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <div class="row align-items-xl-center gy-5">
-
-          <div class="col-xl-5 content">
-            <h3>About Us</h3>
-            <h2>We help Druze youth achieve their full potential</h2>
-            <p>Through work with our partners, we enable Druze youth opportunities that give them skills they need to succeed.</p>
-            <a href="#" class="read-more"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
-          </div>
-
-          <div class="col-xl-7">
-            <div class="row gy-4 icon-boxes">
-
-              <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
-                <div class="icon-box">
-                  <i class="bi bi-buildings"></i>
-                  <h3>Technical Skills</h3>
-                  <p>Through our education program, we enable Druze youth an opportunity to develop crucial skills to succeed.</p>
-                </div>
-              </div> <!-- End Icon Box -->
-
-              <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
-                <div class="icon-box">
-                  <i class="bi bi-clipboard-pulse"></i>
-                  <h3>Health Fund</h3>
-                  <p>We help the Druze in difficult times by providing assistance in health emergencies.</p>
-                </div>
-              </div> <!-- End Icon Box -->
-
-              <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
-                <div class="icon-box">
-                  <i class="bi bi-command"></i>
-                  <h3>STEM Education</h3>
-                  <p>By developing next generational skills, DYPO helps the Druze create a modern impact in their communities and beyond.</p>
-                </div>
-              </div> <!-- End Icon Box -->
-
-              <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
-                <div class="icon-box">
-                  <i class="bi bi-person"></i>
-                  <h3>Seminars</h3>
-                  <p>DYPO connects Druze communities with global experts who spread their knowledge and skills.</p>
-                </div>
-              </div> <!-- End Icon Box -->
-
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-    </section><!-- End About Section -->
-
-    <!-- Stats Section - Home Page -->
-    <section id="stats" class="stats">
-
-      <img src="assets/img/stats-bg.jpg" alt="" data-aos="fade-in">
-
-      <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-3">
-
-          <div class="col-lg-4 col-md-8">
-            <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="5035" data-purecounter-duration="1" class="purecounter"></span>
-              <p>People Impacted</p>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-4 col-md-8">
-            <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Projects</p>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-4 col-md-8">
-            <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="7" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Change Makers</p>
-            </div>
-          </div><!-- End Stats Item -->
-
-        </div>
-
-      </div>
-
-    </section><!-- End Stats Section -->
-
-    <!-- Projects Section - Home Page -->
-    <section id="projects" class="projects">
-
-      <!--  Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Projects</h2>
-        <p>DYPO's tangible impact.</p>
-      </div><!-- End Section Title -->
-
+    <!-- Mission Section -->
+    <section id="mission" class="section">
       <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="100">
-            <div class="service-item d-flex">
-              <div class="icon flex-shrink-0"><i class="bi bi-code-slash"></i></div>
-              <div>
-                <h4 class="title">Madrasatie</a></h4>
-                <p class="description">The chair of DYPO, Adam Abu Ghaida, developed Madrasatie alongside Massarat, an application catered to K through 12 learning. This project impacted 30+ state schools and 1000+ Druze students.</p>
+        <div class="grid grid-2">
+          <div class="mission-content" data-aos="fade-right">
+            <span class="section-tag">Our Mission</span>
+            <h2 class="section-title">Preserving Heritage Through Innovation</h2>
+            <p>DYPO is revolutionizing how Druze youth connect with their faith and culture. Through cutting-edge technology and community-driven initiatives, we're making knowledge accessible to all.</p>
+            <div class="stats-grid">
+              <div class="stat-item">
+                <span class="stat-number">5,000+</span>
+                <span class="stat-label">Youth Reached</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">7</span>
+                <span class="stat-label">Global Initiatives</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">15+</span>
+                <span class="stat-label">Countries</span>
               </div>
             </div>
           </div>
-          <!-- End Service Item -->
-
-          <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="200">
-            <div class="service-item d-flex">
-              <div class="icon flex-shrink-0"><i class="bi bi-card-checklist"></i></div>
-              <div>
-                <h4 class="title">Druze Pioneer Program</a></h4>
-                <p class="description">With the help of board member Nidal Abou Zaki, DYPO delivered a summer course about the fundementals of Python, the most famous coding language in the world.</p>
-              </div>
+          <div class="mission-video" data-aos="fade-left">
+            <div class="video-wrapper">
+              <img src="assets/img/hero-bg.jpeg" alt="Our Mission">
+              <button class="play-btn"><i class="bi bi-play-fill"></i></button>
             </div>
-          </div><!-- End Service Item -->
+          </div>
+        </div>
+      </div>
+    </section>
 
-          <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="300">
-            <div class="service-item d-flex">
-              <div class="icon flex-shrink-0"><i class="bi bi-bar-chart"></i></div>
-              <div>
-                <h4 class="title">Global Learning</a></h4>
-                <p class="description">DYPO helped pioneer a LLM for teachers inside of Lebanon that helped solve crucial pedagogical problems like instructional downtime and lesson-prep. Using Anthropic's Claude2, the LLM helped small-town teachers prepare their students for global challenges, in a more full way.</p>
-              </div>
+    <!-- Initiatives Section -->
+    <section id="initiatives" class="section bg-gradient">
+      <div class="container">
+        <h2 class="section-title text-center">Our Initiatives</h2>
+        <div class="grid grid-3">
+          <div class="card" data-aos="fade-up">
+            <div class="card-icon">
+              <i class="bi bi-laptop"></i>
             </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="400">
-            <div class="service-item d-flex">
-              <div class="icon flex-shrink-0"><i class="bi bi-person-video3"></i></div>
-              <div>
-                <h4 class="title">DruzeTalks</a></h4>
-                <p class="description">Every month, The DYPO hosts seminars to help spread knowledge through online conferences. These conferences develop knowledge and skills inside the druze community.</p>
-              </div>
-            </div>
-          </div><!-- End Service Item -->
-
+            <h3>Madrasatie</h3>
+            <p>Revolutionary K-12 learning platform impacting 1000+ Druze students across 30+ schools.</p>
+          </div>
           
-
+          <div class="card" data-aos="fade-up" data-aos-delay="100">
+            <div class="card-icon">
+              <i class="bi bi-code-square"></i>
+            </div>
+            <h3>Druze Pioneer Program</h3>
+            <p>Teaching essential coding skills to empower the next generation of Druze tech leaders.</p>
+          </div>
+          
+          <div class="card" data-aos="fade-up" data-aos-delay="200">
+            <div class="card-icon">
+              <i class="bi bi-camera-video"></i>
+            </div>
+            <h3>DruzeTalks</h3>
+            <p>Monthly seminars connecting youth with global experts and cultural leaders.</p>
+          </div>
         </div>
-
       </div>
+    </section>
 
-    </section><!-- End Services Section -->
-
-    
-
-    
-
-    <!-- Pricing Section - Home Page -->
-    
-    <!-- Faq Section - Home Page -->
-    <section id="faq" class="faq">
-
+    <!-- Impact Section -->
+    <section id="impact" class="section">
       <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-            <div class="content px-xl-5">
-              <h3><span>Frequently Asked </span><strong>Questions</strong></h3>
-              <p>
-                Being the smallest ethno-religious group in the world, we get lots of questions. Here are some of the most common ones.
-              </p>
-            </div>
-          </div>
-
-          <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
-
-            <div class="faq-container">
-              <div class="faq-item faq-active">
-                <h3><span class="num">1.</span> <span>Who are the Druze?</span></h3>
-                <div class="faq-content">
-                  <p>The Druze are an ethnoreligious group who follow the Tawheed Faith and the belief in the one-ness of a supreme being. Number around 800,000, they commonly reside in the levant however have sizable populations in North America and the Gulf.</p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-
-              <div class="faq-item">
-                <h3><span class="num">2.</span> <span>What is the mission of The DYPO?</span></h3>
-                <div class="faq-content">
-                  <p>At the DYPO, we strive to give the historically under-represented Druze Populations with a platform to strive. We are a charitable non-profit organization headed by the Abu Ghaida family from Hasbaya, Lebanon dedicated to taking the Druze to new heights.</p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-
-              <div class="faq-item">
-                <h3><span class="num">3.</span> <span>Do we accept volunteers?</span></h3>
-                <div class="faq-content">
-                  <p>Absolutely. By volunteering, you'll be able to contribute to DYPO's success. Head <a href="#contact">here<a> to contact us. </p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-
-             <!--  <div class="faq-item">
-                <h3><span class="num">4.</span> <span>Are you open for carrers</span></h3>
-                <div class="faq-content">
-                  <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div
-
-              <div class="faq-item">
-                <h3><span class="num">5.</span> <span>Tempus quam pellentesque nec nam aliquam sem et tortor consequat?</span></h3>
-                <div class="faq-content">
-                  <p>Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in</p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div>End Faq item -->
-
-            </div>
-
-          </div>
+        <div class="impact-header text-center">
+          <h2 class="section-title">Making Real Impact</h2>
+          <p>Through technology and education, we're creating lasting change in our community.</p>
         </div>
-
-      </div>
-
-    </section><!-- End Faq Section -->
-
-    <!-- Team Section - Home Page -->
-    
-
-    <!-- Call-to-action Section - Home Page -->
-    <section id="call-to-action" class="call-to-action">
-
-      <img src="assets/img/cta-bg.jpg" alt="">
-
-      <div class="container">
-        <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
-          <div class="col-xl-10">
-            <div class="text-center">
-              <h3>Donate</h3>
-              <p>Your donation will go towards helping the Druze succeed. DYPO will use to your donation continue supporting projects and for our health and emergency funds. Thank you for helping DYPO continue its charitable operations.</p>
-              <a class="cta-btn" href="#">Donate</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </section><!-- End Call-to-action Section -->
-
-    
-
-    
-
-    <!-- Contact Section - Home Page -->
-    <section id="contact" class="contact">
-
-      <!--  Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Contact</h2>
-        <p>If you have any questions at all, please reach out. We would love to listen and learn from you.</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-6">
-
-            <div class="row gy-4">
-              <div class="col-md-6">
-                <div class="info-item" data-aos="fade" data-aos-delay="200">
-                  <i class="bi bi-geo-alt"></i>
-                  <h3>Address</h3>
-                  <p>Arabian Ranches 1, Mirador 1, Street 5, Villa 41</p>
-                  <p>Dubai, UAE</p>
-                </div>
-              </div><!-- End Info Item -->
-
-              <div class="col-md-6">
-                <div class="info-item" data-aos="fade" data-aos-delay="300">
-                  <i class="bi bi-telephone"></i>
-                  <h3>Call Us</h3>
-                  <p>+971 56 892 0056</p>
-                </div>
-              </div><!-- End Info Item -->
-
-              <div class="col-md-6">
-                <div class="info-item" data-aos="fade" data-aos-delay="400">
-                  <i class="bi bi-envelope"></i>
-                  <h3>Email Us</h3>
-                  <p>info@dypo.org</p>
         
-                </div>
-              </div><!-- End Info Item -->
-
-              <div class="col-md-6">
-                <div class="info-item" data-aos="fade" data-aos-delay="500">
-                  <i class="bi bi-clock"></i>
-                  <h3>Open Hours</h3>
-                  <p>Monday - Friday</p>
-                  <p>9:00AM GST - 05:00PM GST</p>
-                </div>
-              </div><!-- End Info Item -->
-
+        <div class="timeline" data-aos="fade-up">
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <h3>Global Learning Initiative</h3>
+              <p>Pioneered AI-powered teaching tools helping educators prepare students for global challenges.</p>
             </div>
-
           </div>
-
-          <div class="col-lg-6">
-            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
-              <div class="row gy-4">
-
-                <div class="col-md-6">
-                  <input type="text" name="name" class="form-control" placeholder="Your Name" required>
-                </div>
-
-                <div class="col-md-6 ">
-                  <input type="email" class="form-control" name="email" placeholder="Your Email" required>
-                </div>
-
-                <div class="col-md-12">
-                  <input type="text" class="form-control" name="subject" placeholder="Subject" required>
-                </div>
-
-                <div class="col-md-12">
-                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
-                </div>
-
-                <div class="col-md-12 text-center">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-
-                  <button type="submit">Send Message</button>
-                </div>
-
-              </div>
-            </form>
-          </div><!-- End Contact Form -->
-
+          
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <h3>Digital Library Launch</h3>
+              <p>Created the first comprehensive online library of Druze knowledge and resources.</p>
+            </div>
+          </div>
+          
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <h3>Youth Leadership Program</h3>
+              <p>Mentored 100+ young Druze leaders in technology and community building.</p>
+            </div>
+          </div>
         </div>
-
       </div>
+    </section>
 
-    </section><!-- End Contact Section -->
+    <!-- Team Section -->
+    <section id="team" class="section bg-gradient">
+      <div class="container">
+        <h2 class="section-title text-center">Meet Our Team</h2>
+        <div class="grid grid-3">
+          <div class="team-card" data-aos="fade-up">
+            <img src="assets/img/team/team-1.jpg" alt="Jad Abu Ghaida">
+            <div class="team-info">
+              <h3>Jad Abu Ghaida</h3>
+              <span>Executive Director</span>
+              <div class="social-links">
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+                <a href="#"><i class="bi bi-twitter"></i></a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="team-card" data-aos="fade-up" data-aos-delay="100">
+            <img src="assets/img/team/team-2.jpg" alt="Angelina el-Chami">
+            <div class="team-info">
+              <h3>Angelina el-Chami</h3>
+              <span>Program Director</span>
+              <div class="social-links">
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+                <a href="#"><i class="bi bi-twitter"></i></a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="team-card join-team-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="join-card">
+              <h3>Join Our Team</h3>
+              <p>We're looking for passionate individuals to help drive our mission forward.</p>
+              <a href="#careers" class="btn btn-outline">View Openings</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <!-- Join Section -->
+    <section id="join" class="section">
+      <div class="container">
+        <div class="grid grid-2">
+          <div class="join-content" data-aos="fade-right">
+            <h2 class="section-title">Be Part of the Change</h2>
+            <p>Join us in our mission to empower Druze youth worldwide. Whether you're a student, professional, or supporter, there's a place for you at DYPO.</p>
+            <ul class="feature-list">
+              <li><i class="bi bi-check-circle-fill"></i> Access exclusive educational resources</li>
+              <li><i class="bi bi-check-circle-fill"></i> Connect with global Druze community</li>
+              <li><i class="bi bi-check-circle-fill"></i> Participate in innovative programs</li>
+              <li><i class="bi bi-check-circle-fill"></i> Shape the future of our community</li>
+            </ul>
+          </div>
+          
+          <div class="join-form" data-aos="fade-left">
+            <form class="card">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Your Name" required>
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" placeholder="Your Email" required>
+              </div>
+              <div class="form-group">
+                <select class="form-control" required>
+                  <option value="">How would you like to help?</option>
+                  <option value="volunteer">Volunteer</option>
+                  <option value="donate">Donate</option>
+                  <option value="partner">Partner</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" rows="4" placeholder="Tell us about yourself"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary w-100">Get Started</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 
-  <!-- ======= Footer ======= -->
-  <footer id="footer" class="footer">
-
-    <div class="container footer-top">
-      <div class="row gy-4">
-        <div class="col-lg-5 col-md-12 footer-about">
-          <a href="index.html" class="logo d-flex align-items-center">
-            <span>DYPO</span>
-          </a>
-          <p>At DYPO, we're dedicated to creating a platform for the Druze to thrive. Through our many projects and initiatives, we aim to provide the Druze an opportunity to excel.</p>
-          <div class="social-links d-flex mt-4">
-            <a href=""><i class="bi bi-twitter"></i></a>
-            <a href=""><i class="bi bi-facebook"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
-            <a href=""><i class="bi bi-linkedin"></i></a>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-info">
+          <img src="assets/img/core/Logo with text - Black.png" alt="DYPO" class="footer-logo">
+          <p>Empowering Druze youth through technology, education, and community building.</p>
+          <div class="social-links">
+            <a href="#"><i class="bi bi-linkedin"></i></a>
+            <a href="#"><i class="bi bi-twitter"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-facebook"></i></a>
           </div>
         </div>
-
-        <div class="col-lg-3 col-6 footer-links">
-          <h4>Useful Links</h4>
+        
+        <div class="footer-links">
+          <h4>Quick Links</h4>
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Terms of service</a></li>
-            <li><a href="#">Privacy policy</a></li>
+            <li><a href="#mission">Our Mission</a></li>
+            <li><a href="#initiatives">Initiatives</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#join">Join Us</a></li>
           </ul>
         </div>
-
         
-
-        <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+        <div class="footer-contact">
           <h4>Contact Us</h4>
-
-          <p>Arabian Ranches 1, Mirador 1, Street 5, Villa 41</p>
-          <p>Dubai, UAE</p>
-          <p class="mt-4"><strong>Phone:</strong> <span>+971 56 892 0056</span></p>
-          <p><strong>Email:</strong> <span>info@dypo.org</span></p>
+          <p><i class="bi bi-geo-alt"></i> Dubai, UAE</p>
+          <p><i class="bi bi-envelope"></i> info@dypo.org</p>
+          <p><i class="bi bi-phone"></i> +971 56 892 0056</p>
         </div>
-
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2024 DYPO. All rights reserved.</p>
       </div>
     </div>
+  </footer>
 
-    <div class="container copyright text-center mt-4">
-      <p>&copy; <span>Copyright</span> <strong class="px-1">DYPO</strong> <span>All Rights Reserved</span></p>
-      <div class="credits">
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 800,
+      offset: 100,
+      once: true
+    });
 
-      </div>
-    </div>
-
-  </footer><!-- End Footer -->
-
-  <!-- Scroll Top Button -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
-  <!-- Preloader -->
-  <div id="preloader">
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-  </div>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-
+    // Mobile Navigation Toggle
+    document.addEventListener('DOMContentLoaded', function() {
+      const mobileNavToggle = document.querySelector('.mobile-nav-toggle');
+      const body = document.querySelector('body');
+      
+      if (mobileNavToggle) {
+        mobileNavToggle.addEventListener('click', function(e) {
+          body.classList.toggle('mobile-nav-active');
+          this.classList.toggle('bi-list');
+          this.classList.toggle('bi-x');
+        });
+      }
+      
+      // Header scroll effect
+      const header = document.querySelector('.header');
+      const scrollThreshold = 50;
+      
+      function toggleHeaderClass() {
+        if (window.scrollY > scrollThreshold) {
+          header.classList.add('scrolled');
+        } else {
+          header.classList.remove('scrolled');
+        }
+      }
+      
+      window.addEventListener('scroll', toggleHeaderClass);
+      
+      // Initialize scroll effect on page load
+      toggleHeaderClass();
+    });
+  </script>
 </body>
 
 </html>
